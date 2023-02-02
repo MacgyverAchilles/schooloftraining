@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link re="stylesheet" href="css.ss">
+    <title>Quiz</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      
+      h1 {
+        text-align: center;
+        color: #0077b5;
+      }
+      
+      form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      p {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+      
+      input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      input[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        background-color: #0077b5;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #005daa;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <form>
+      <p>What is the capital of France?</p>
+      <input type="radio" name="question1" value="Paris">Paris<br>
+      <input type="radio" name="question1" value="London">London<br>
+      <input type="radio" name="question1" value="Berlin">Berlin<br>
+      <br>
+      <p>What is the largest ocean in the world?</p>
+      <input type="radio" name="question2" value="Atlantic">Atlantic<br>
+      <input type="radio" name="question2" value="Pacific">Pacific<br>
+      <input type="radio" name="question2" value="Indian">Indian<br>
+      <br>
+      <input type="submit" value="Submit">
+    </form> 
+  </body>
+</html>
